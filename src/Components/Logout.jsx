@@ -54,7 +54,7 @@ function Logout()
     return (
         <>
             <button 
-                className='btn btn-neutral hover:scale-110 hover:bg-red-900 duration-300 lg:tooltip lg:tooltip-bottom'
+                className='btn btn-neutral hover:scale-110 hover:bg-red-900 duration-300 tooltip tooltip-left'
                 data-tip="Sign out"
                 onClick={handleLogout}
             >
